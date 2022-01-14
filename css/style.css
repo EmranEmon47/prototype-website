@@ -1,0 +1,125 @@
+/* font style */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* utility part */
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+}
+
+/* front side page nav section Start */
+
+.container {
+  width: 100%;
+  height: 690px;
+  background-color: #131316;
+  background-image: url(../images/front-image.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 581px 790px;
+  background-position: 670px;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 82px;
+}
+.nav-bar img {
+  margin-top: 20px;
+}
+.log-in-button {
+  margin-top: 30px;
+}
+
+.website-logo img {
+  padding-left: 80px;
+}
+.navigaton {
+  margin-top: 20px;
+
+  font-size: 16px;
+}
+.navigaton a {
+  color: black;
+  text-decoration: none;
+  margin-left: 32px;
+  color: white;
+}
+#home-nav {
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.log-in-button {
+  padding-right: 80px;
+}
+.log-in-button a {
+  text-decoration: none;
+  color: white;
+}
+.log-in-button .sign-up {
+  background-color: #4ae290;
+  padding: 12px 30px;
+  border-radius: 1px;
+  margin-left: 24px;
+}
+
+/* front side page nav section END*/
+
+/* front side heading start */
+.front-heading {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  grid-row-gap: 32px;
+  width: 527px;
+  height: 285px;
+  margin-left: 201px;
+  margin-top: 140px;
+}
+.heading h1 {
+  font-size: 60px;
+  line-height: 62px;
+  color: white;
+}
+.front-heading p {
+  color: #ffffff;
+
+  font-size: 24px;
+  color: #dedee3;
+}
+.front-heading a {
+  color: black;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.front-heading span {
+  color: #4ae290;
+}
+.link-button {
+  margin-top: 10px;
+  width: 159px;
+  height: 46px;
+}
+.link-button a {
+  padding: 14px 40px;
+  border: 1px solid white;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+
+  margin-top: 10px;
+}
+
+/* front side heading end */
